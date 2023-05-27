@@ -1,0 +1,1 @@
+just hustle everysecond don't waste your time and energy in useless activities just keep working hard and ond day you wil be great at any cost

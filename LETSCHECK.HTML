@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>After a long time web development</title>
+    </head>
+    <body>
+        <style>
+            body{
+                background-image:linear-gradient(to right,blue,red,green,yellow,rgb(255, 0, 242));
+                color: white!important;
+            }
+            .main{
+                border:5px dotted green;
+                font-family:monospace;
+                font-size:20px;
+                animation:mymove 2s infinite;
+            }
+            h3{
+                position: absolute;
+                animation:mymove1 2s infinite;
+            }
+            @keyframes mymove{
+                from{border:5px dotted green;}
+                to{border:5px dashed rgb(225, 255, 0);}
+            }
+            @keyframes mymove1{
+                from{left:50;}
+                to{right:50;}
+                from{text-transform:none;}
+                to{text-transform:uppercase;}
+            }
+            ul{
+                animation:lianim 2s infinite;
+            }
+            @keyframes lianim{
+                from{list-style-type:disc;}
+                to{list-style-type:square;}
+                from{text-tranform:none;}
+                to{text-transform:uppercase;}
+            }
+            
+        </style>
+        <div class="main">
+            <h3>Three things that can destroy  your life</h3>
+            <br>
+            <br>
+            <ul>
+                <li>Love</li>
+                <li>Lust</li>
+                <li>Anger</li>
+            </ul><br>
+            <br>
+            <video controls>
+                <source src="https://www.youtube.com/watch?v=RY_0Oc2Elak&list=RDRY_0Oc2Elak" ></source>
+            </video>
+        </div>
+    </body>
+</html>
