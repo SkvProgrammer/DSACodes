@@ -12,7 +12,7 @@ int main(){
    int n;
    cin>>n;
 
-   if( n > 0 ){
+   if( n >n 0 ){
         int i = n & (n-1);
 
         if(i == 0){
