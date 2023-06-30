@@ -68,5 +68,6 @@
         "streambuf": "cpp",
         "thread": "cpp",
         "valarray": "cpp"
-    }
+    },
+    "cph.general.onceMaintainerMessage": false
 }
